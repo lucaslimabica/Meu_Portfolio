@@ -1,9 +1,8 @@
 services:
   meu_portfolio:
-    image: meu_portfolio:latest
-    build:
-      context: ./
-      dockerfile: Dockerfile
+    image: nginx:alpine
+    volumes:
+      - .:/usr/share/nginx/html:ro
     networks:
       - network_liberica
     deploy:
