@@ -18,7 +18,7 @@ services:
           memory: 256M
       labels:
         - traefik.enable=true
-        - traefik.http.routers.meu_portfolio.rule=Host(`copeiro.liberica.pt`)
+        - traefik.http.routers.meu_portfolio.rule=Host(`portfolio.liberica.pt`)
         - traefik.http.routers.meu_portfolio.entrypoints=websecure
         - traefik.http.routers.meu_portfolio.tls.certresolver=letsencryptresolver
         - traefik.http.services.meu_portfolio.loadbalancer.server.port=80
