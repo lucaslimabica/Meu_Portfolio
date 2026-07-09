@@ -2,7 +2,7 @@ services:
   meu_portfolio:
     image: meu_portfolio:latest
     build:
-      context: ./meu_portfolio
+      context: ./
       dockerfile: Dockerfile
     networks:
       - network_liberica
