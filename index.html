@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas de Lima Bica Portfolio</title>
+<meta name="description" content="Portfolio of Lucas de Lima Bica, Software Engineer and DevOps specializing in backend development, automation and infrastructure.">
+<link rel="icon" href="assets/face.ico">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+    <nav class="nav container">
+        <a class="brand" href="#contact"><img src="assets/face.jpeg" alt="Lucas de Lima Bica" class="brand-avatar"></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero container" id="hero">
+        <p class="hero-eyebrow">Software Engineer · DevOps</p>
+        <h1 class="hero-title">
+            Lucas de Lima <span class="text-accent">Bica</span>
+        </h1>
+        <p class="hero-subtitle">
+            I build systems that actually work , backends, automations and infrastructure
+            that hold up under real-world load. Six years in, still chasing 110%.
+        </p>
+        <div class="hero-meta">
+            <span class="meta-chip">Faro, Portugal</span>
+            <span class="meta-chip">Fluent English</span>
+            <span class="meta-chip">6 years of experience</span>
+        </div>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">See my work</a>
+            <a class="btn btn-ghost" href="mailto:delimabica@gmail.com">Get in touch</a>
+        </div>
+        <div class="hero-links">
+            <a href="https://github.com/lucaslimabica" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.01-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.78 2.71 1.26 3.37.97.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-de-lima-bica-479b89228/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+            </a>
+            <a href="mailto:delimabica@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M1.5 4.5A1.5 1.5 0 0 1 3 3h18a1.5 1.5 0 0 1 1.5 1.5v15A1.5 1.5 0 0 1 21 21H3a1.5 1.5 0 0 1-1.5-1.5v-15Zm2.24.75 8.26 6.6 8.26-6.6H3.74Zm16.76 1.8-8.03 6.42a1.5 1.5 0 0 1-1.94 0L2.5 7.05V19.5h19V7.05Z"/></svg>
+            </a>
+        </div>
+    </section>
+    <section class="section container" id="about">
+        <h2 class="section-title"><span class="section-index">01</span> About</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I don't believe in delivering just "enough". I'm looking for a job where I can give
+                    110% to something the team truly believes in, driven by the challenge of building
+                    new realities, and I won't rest until the system is not just functional, but flawless.
+                </p>
+                <p>
+                    I learn by experimenting, diving straight into the problem until I understand it end
+                    to end. When I master something, I document and explain it so the team doesn't have to
+                    go through the same journey, growing not just myself but the group as a whole.
+                    Challenges exist to be embraced and solved, and what we learn from them belongs to everyone.
+                </p>
+                <div class="interests">
+                    <span class="tag">Software Development</span>
+                    <span class="tag">Back-end &amp; APIs</span>
+                    <span class="tag">Databases</span>
+                    <span class="tag">Automation</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Business Environment</span>
+                    <span class="tag">PHP</span>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Years of experience</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Tools &amp; platforms integrated</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Countries worked with</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container" id="experience">
+        <h2 class="section-title"><span class="section-index">02</span> Experience</h2>
+        <div class="timeline">
+
+            <article class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-head">
+                        <h3>DevOps &amp; Software Engineer</h3>
+                        <span class="timeline-date">April 2024 - June 2026 · Hybrid</span>
+                    </div>
+                    <p class="timeline-org">Brasfone Telco</p>
+                    <ul class="timeline-list">
+                        <li><strong>Backend &amp; API Architecture</strong>, Developed and optimized robust backend solutions to customize and scale e-commerce platforms (WooCommerce, Shopify) and integrate financial ERPs (Moloni, Primavera). Designed and consumed complex REST/GraphQL APIs ensuring high performance and data integrity.</li>
+                        <li><strong>Full-Stack Application Development</strong>, Engineered internal and client-facing web applications, dashboards, and custom management tools using React and Python, aligning business logic with clean code practices and scalable architecture.</li>
+                        <li><strong>Automation &amp; Workflow Orchestration</strong>, Acted as Lead Developer for advanced n8n automation workflows, connecting CRMs (Pipedrive, HubSpot, Zoho), communication channels (WhatsApp Business API, Slack), and marketing platforms (Meta &amp; Google Ads).</li>
+                        <li><strong>DevOps &amp; Cloud Infrastructure</strong>, Owned server infrastructure end-to-end: provisioning and maintaining high-availability Docker deployments, managing production databases (PostgreSQL, MySQL, MongoDB), implementing PgBouncer and Redis, security hardening, monitoring and incident response.</li>
+                        <li><strong>Technical Leadership &amp; Remote Collaboration</strong>, Provided technical consultancy, system onboarding and ongoing support for internal distributed teams and international clients, demonstrating strong asynchronous communication in a remote-first setup.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-head">
+                        <h3>Internal &amp; Client Technical Support</h3>
+                        <span class="timeline-date">August 2020 - September 2023 · Remote</span>
+                    </div>
+                    <p class="timeline-org">iiLex Sistemas Jurídicos</p>
+                    <ul class="timeline-list">
+                        <li><strong>Software Maintenance &amp; Bug Fixing</strong>, Developed software updates, patches and feature maintenance for proprietary legal management systems, ensuring application stability, compliance and code quality.</li>
+                        <li><strong>Technical Leadership &amp; Incident Management</strong>, Led the internal and client-facing technical support team, establishing triage workflows, reducing ticket resolution time, and overseeing critical incident responses.</li>
+                        <li><strong>Infrastructure &amp; System Configuration</strong>, Responsible for deployment, configuration and proactive maintenance of core software systems across complex internal and client infrastructure environments.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-head">
+                        <h3>Law Office Assistant</h3>
+                        <span class="timeline-date">February 2020 - August 2020 · On-site</span>
+                    </div>
+                    <p class="timeline-org">Bernardino &amp; Naumko Advocacia</p>
+                    <ul class="timeline-list">
+                        <li>Configuration and maintenance of the office environment and computers.</li>
+                        <li>Creation, maintenance and management of online office advertisements.</li>
+                        <li>Administration of office marketing and social media.</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section container" id="projects">
+        <h2 class="section-title"><span class="section-index">03</span> Projects</h2>
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-head">
+                    <h3>E-Commerce Automated Recovery & Customer Analytics Platform</h3>
+                </div>
+                <p class="project-role">Role: Lead Backend &amp; Integrations Developer</p>
+                <div class="project-stack">
+                    <span>React</span><span>WooCommerce</span><span>WhatsApp API</span><span>PostgreSQL</span><span>Docker</span>
+                </div>
+                <p class="project-desc">
+      				<strong>The problem:</strong> A high-volume online retailer lacked centralized sales control, leading to high cart abandonment rates and missing customer insights.
+      				<strong>The Technical Solution:</strong> Built a custom data-matching platform ingesting WooCommerce webhooks into a PostgreSQL database. Implemented automated n8n workflows to track incomplete checkouts and trigger automated WhatsApp follow-ups and internal sales dashboard alerts after a custom interval.
+      				<strong>The Business Impact:</strong> Eliminated manual order tracking and boosted conversion rates through automated cart recovery pipelines.
+				</p>
+            </article>
+
+			<article class="project-card">
+			    <div class="project-head">
+			        <h3>Medical Clinic Patient Attendance &amp; Appointment Sync System</h3>
+			    </div>
+			    <p class="project-role">Role: Full-Stack &amp; Integration Engineer</p>
+			    <div class="project-stack">
+			        <span>Python</span><span>React</span><span>WhatsApp API</span><span>PostgreSQL</span>
+			    </div>
+			    <p class="project-desc">
+			        <strong>The problem:</strong> A medical clinic faced high appointment no-show rates and lacked real-time visibility into patient lifecycle metrics.
+			        <strong>The Technical Solution:</strong> Developed a centralized dashboard with a bi-directional WhatsApp API integration via n8n. Patient confirmation replies automatically updated the PostgreSQL database and pushed instant presence notifications to the internal management system.
+			        <strong>The Business Impact:</strong> Drastically reduced client no-shows and automated the appointment confirmation bottleneck.
+			    </p>
+			</article>
+
+			<article class="project-card">
+			    <div class="project-head">
+			        <h3>Real Estate Operations Hub &amp; Automated PropTech Pipeline</h3>
+			    </div>
+			    <p class="project-role">Role: Full-Stack Developer &amp; DevOps Specialist</p>
+			    <div class="project-stack">
+			        <span>PHP</span><span>JavaScript</span><span>Slack API</span><span>PostgreSQL</span><span>Docker Swarm</span>
+			    </div>
+			    <p class="project-desc">
+			        <strong>The problem:</strong> A real estate agency suffered from fragmented communication regarding property statuses, visits, and team follow-ups.
+			        <strong>The Technical Solution:</strong> Built an operations hub integrating property tracking with PostgreSQL. Engineered automated workflows that dispatched instant Slack alerts for team milestones, managed client messaging, and dynamically updated the website's public inventory.
+			        <strong>The Business Impact:</strong> Centralized real estate operations into a single source of truth and accelerated the property listing lifecycle.
+			    </p>
+			</article>
+
+			<article class="project-card">
+			    <div class="project-head">
+			        <h3>Next-Gen Modular Multi-Tenant CRM Platform</h3>
+			    </div>
+			    <p class="project-role">Role: Software Architect &amp; Lead Full-Stack Developer</p>
+			    <div class="project-stack">
+			        <span>React</span><span>React Query</span><span>Python</span><span>Supabase</span><span>PostgreSQL</span><span>PHP</span>
+			    </div>
+			    <p class="project-desc">
+			        <strong>The problem:</strong> Traditional CRMs are bloated or too generic, failing to address specific workflows for professional niches like clinics, construction, and retail with fast actions.
+			        <strong>The Technical Solution:</strong> Architecting a multi-tenant modular CRM using React and a structured PostgreSQL/Supabase database. The system abstracts complex sector-specific logic into intuitive, rapid-action UI modules.
+			        <strong>The Business Impact:</strong> Delivers tailor-made enterprise management features without system bloat, reducing administrative overhead and team onboarding time.
+			    </p>
+			</article>
+
+        </div>
+    </section>
+
+    <section class="section container" id="skills">
+        <h2 class="section-title"><span class="section-index">04</span> Skills</h2>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Software Development</h3>
+                <div class="skill-tags">
+                    <span>Python</span><span>JavaScript</span><span>Java</span><span>React</span>
+                    <span>PHP</span><span>REST &amp; GraphQL APIs</span><span>TypeScript</span><span>CI/CD Pipelines</span>
+                    <span>Flask</span><span>Django</span><span>Android</span><span>Flutter</span>
+                    <span>Laravel</span><span>Tailwind</span><span>Symfony</span><span>OpenCV</span>
+                    <span>AI</span><span>MediaPipe</span><span>Vision AI</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Infrastructure &amp; DevOps</h3>
+                <div class="skill-tags">
+                    <span>Docker</span><span>Self-hosted Deployments</span>
+                    <span>Server Management</span><span>Cybersecurity</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Databases &amp; Data Integrity</h3>
+                <div class="skill-tags">
+                    <span>SQL</span><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span>
+                    <span>MongoDB</span><span>Redis</span><span>PgBouncer</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Automation &amp; Integrations</h3>
+                <div class="skill-tags">
+                    <span>n8n</span><span>WhatsApp API</span><span>Meta &amp; Google Ads</span>
+                    <span>Pipedrive</span><span>HubSpot</span><span>Zoho CRM</span><span>ClickUp</span>
+                    <span>WooCommerce</span><span>Shopify</span><span>Moloni</span><span>Primavera</span>
+                    <span>Sesame</span><span>Mexal</span><span>Slack</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Methodologies &amp; People</h3>
+                <div class="skill-tags">
+                    <span>Agile</span><span>Technical Onboarding &amp; Training</span>
+                    <span>Client-Facing Communication</span><span>Fast Learner</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section container" id="education">
+        <h2 class="section-title"><span class="section-index">05</span> Education</h2>
+        <div class="edu-grid">
+
+            <div class="edu-card">
+                <div class="edu-head">
+                    <h3>Software Engineering</h3>
+                    <span class="timeline-date">2023 - Present</span>
+                </div>
+                <p class="timeline-org">Universidade do Algarve</p>
+                <ul class="timeline-list">
+                    <li><strong>Core Software Engineering</strong>, Hands-on development of robust applications utilizing Python, Java, JavaScript, C#, and Assembly, applying OOP, clean code practices and Agile methodologies.</li>
+                    <li><strong>Systems &amp; Data Management</strong>, Practical focus on software architecture, relational database management, network infrastructure, and Linux server administration.</li>
+                </ul>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-head">
+                    <h3>Software Development</h3>
+                    <span class="timeline-date">Jan 2022 - Aug 2023</span>
+                </div>
+                <p class="timeline-org">Unisinos, Brazil</p>
+                <ul class="timeline-list">
+                    <li><strong>Backend Development</strong>, Designed and implemented structured backend solutions and algorithms using Java, focusing on data structures and software logic principles.</li>
+                    <li><strong>Technical Mentorship</strong>, Acted as a tutor for scientific and technological introductory classes, strengthening communication skills and mentoring peers in foundational programming logic.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+        <h2 class="section-title"><span class="section-index">06</span> Contact</h2>
+        <div class="contact-card">
+            <p>
+                Always open to a conversation about challenging problems, remote-first teams,
+                or opportunities to build something worth 110%.
+            </p>
+            <div class="contact-links">
+                <a class="btn btn-primary" href="mailto:delimabica@gmail.com">delimabica@gmail.com</a>
+                <a class="btn btn-ghost" href="https://www.linkedin.com/in/lucas-de-lima-bica-479b89228/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a class="btn btn-ghost" href="https://github.com/lucaslimabica" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <span>&copy; <span id="year"></span> Lucas de Lima Bica.</span>
+        <span>Faro, Portugal</span>
+    </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
